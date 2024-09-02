@@ -1,9 +1,7 @@
-def solution():
-    pass
+def solution(a, b, x):
+    return 3*x - a - b
 
 
 if __name__ == "__main__":
-    t = int(input().strip())    # Number of test cases
-    for i in range(t):
-        # something = list(map(int, input().strip().split())) # Read int array
-        pass
+    a, b, x = list(map(int, input().strip().split())) # Read int array
+    print(solution(a, b, x))
